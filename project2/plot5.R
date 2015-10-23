@@ -34,7 +34,7 @@ barplot(
     xlab = "Year",
     ylab = "Tons"
 )
-legend(x = "topright", inset = .05, bg = "lightgrey",
+legend(x = "topright", inset = 0.05, bg = "lightgrey",
        fill = c("light green", "dark green", "light blue", "dark blue"),
-       legend = sub("Mobile - On-Road", "", sub(" Vehicles", "", mvsrc)))
+       legend = sub("Mobile - On-Road ", "", sub(" Vehicles", "", mvsrc)))
 dev.off()
